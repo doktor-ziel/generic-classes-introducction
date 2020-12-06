@@ -6,7 +6,7 @@ public class SimpleStack implements Stack {
     int top;
 
     public SimpleStack(int size) {
-        array = new String[size];
+        array = new Object[size];
         this.size = size;
         top = 0;
     }
